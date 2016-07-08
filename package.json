@@ -1,0 +1,24 @@
+{
+  "name": "js_thegoodparts",
+  "version": "1.0.0",
+  "description": "learning good parts of js",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otsitron/JS_theGoodParts.git"
+  },
+  "author": "Olga Tsitron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otsitron/JS_theGoodParts/issues"
+  },
+  "homepage": "https://github.com/otsitron/JS_theGoodParts#readme"
+}

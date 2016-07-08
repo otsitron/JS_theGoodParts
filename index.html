@@ -2,16 +2,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Title of the document</title>
-
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Title of the document</title>
 </head>
 <html>
 <body>
-
-<button id="myBtn">Try it</button>
-
-<p id="demo"></p>
-
+<div class="container">
+    <button id="myBtn">Try it</button>
+    <p id="demo"></p>
+    
+    <pre>document.getElementById("myBtn").onclick = displayDate;
+function displayDate() {
+    document.getElementById("demo").innerHTML = "<a href='prototypePlay.html'>prototypePlay</a>";
+}</pre>
+</div>
 <script src="js/init.js"></script>
 </body>
 </html>

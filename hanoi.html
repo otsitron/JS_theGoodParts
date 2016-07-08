@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 <title>hanoi</title>
 
 </head>
 <html>
 <body>
 
-<h3>hanoi recursion</h3>
-
-<div><code>var hanoi = function hanoi(disc, a, b, c){
-    console.log("disc " + disc + 
-        ' a:' + a + ' b:' + b + ' c:' + c);
-    if (disc > 0){
-        hanoi(disc-1, a, c, b);
-        console.log('Move disc ' + disc + 
-        ' from ' + a + ' to ' + b);
-       
-        hanoi (disc - 1, c, a, b);
-    }
-}
-hanoi(4, 'a', 'b', 'c');</code></div>
-
+<div class="container">
+    <h3>hanoi recursion</h3>
 <div>
-<a href="scope.html">< scope</a>  &nbsp
-<a href="x.html"> > </a>
-</div>
+    <a href="scope.html">< scope</a>  &nbsp
+    <a href="x.html"> > </a>
+    </div>
+    <div><pre>var hanoi = function hanoi(disc, a, b, c){
+        console.log("disc " + disc + 
+            ' a:' + a + ' b:' + b + ' c:' + c);
+        if (disc > 0){
+            hanoi(disc-1, a, c, b);
+            console.log('Move disc ' + disc + 
+            ' from ' + a + ' to ' + b);
+        
+            hanoi (disc - 1, c, a, b);
+        }
+    }
+    hanoi(4, 'a', 'b', 'c');</code></pre>
 
+    
+</div><!--//container-->
 
 <script src="js/hanoi.js"></script>
 </body>
